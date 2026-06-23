@@ -1,0 +1,19 @@
+{
+  "name": "jones_automation_exercise",
+  "version": "1.0.0",
+  "description": "Playwright automation for the Jones take-home exercise (https://test.netlify.app/)",
+  "main": "automation.js",
+  "scripts": {
+    "automation": "node automation.js",
+    "automation:headed": "cross-env HEADED=1 node automation.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "cross-env": "^10.1.0",
+    "playwright": "^1.61.0"
+  }
+}
